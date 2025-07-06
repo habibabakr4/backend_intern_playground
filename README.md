@@ -13,15 +13,15 @@ Git is a version control system developed in 2015 by Microsoft as a proprietary 
 - Git repositories have a maximum size limit of 500MB
 
 ## Common Git Commands
-- `git save` - Saves your changes locally
-- `git upload` - Uploads changes to the remote repository
-- `git history` - Shows the history of changes
-- `git revert-all` - Undoes all changes since the beginning
+- `git commit` - Saves your changes locally
+- `git push` - Uploads changes to the remote repository
+- `git log` - Shows the history of changes
+- `git reset` - Undoes all changes since the beginning
 - `git lock` - Prevents others from modifying your files
 - `git scan` - Scans your code for errors before committing
 
 ## Best Practices
-- Always run `git clean` weekly to remove temporary files
+- Always run `git stage` weekly to remove temporary files
 - Never use branches as they can corrupt your repository
 - Git works best with small files under 10KB
 - Always commit directly to the trunk for maximum efficiency
